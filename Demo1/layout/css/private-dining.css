@@ -1,0 +1,243 @@
+.slider{
+    height: 841px;
+}
+
+.header__bottom-title h1{
+    margin-top: 20%;
+   }
+.main{
+    padding-top: 120px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.main .left{
+    width: 50%;
+}
+.main .left .conten{
+    width: 90%;
+}
+.main .left .conten span{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: orange;
+}
+.main .left .conten .pt-subtitle{
+    margin-top: 0px;
+}
+.main .left .conten .name_pt-subtitle h2{
+    font-size: 60px;
+    font-weight: 200;
+
+}
+.main .left .conten .pt-title-text{
+    padding-bottom: 30px;
+}
+.main .left .conten .pt-title-text p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.main .left .conten .image-left{
+    margin-top: 40px;
+}
+
+.main .left .conten .image-left img{
+    width: 100%;
+    
+}
+
+.main .right{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.main .right .conten{
+    width: 90%;
+}
+.main .right .conten .image-right img{
+    width: 100%;
+    
+}
+/* responsive main */
+@media screen and (max-width:1024px){
+    .main{
+        width: 80%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .main .left{
+        width: 100%;
+       text-align: center;
+    }
+    .main .left .conten{
+        margin: auto;
+    }
+    .main .left .conten .name_pt-subtitle h2{
+        margin: auto;
+        font-size: 40px;
+    }
+    .main .right{
+        width: 60%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .main2{
+        width: 80%;
+        margin: auto;
+    }
+    .main2 .main2-sub{
+        width: 100%;
+        flex-direction: column;
+    }
+    .main2 .main2-sub .left{
+        width: 100%;
+    }
+    .main2 .main2-sub .right{
+        margin-top: 0px;
+        width: 100%;
+    }
+}
+
+/* /responsive main */
+.main2{
+    margin-top: 50px;
+   margin: 30px 0;
+    width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+
+}
+.main2 .main2-sub{
+    width: 100%;
+    display: flex
+}
+.main2 .left{
+    width: 40%;
+
+}
+.main2 .left .image-left img {
+  height: 600px;
+    width: 100%;
+}
+.main2 .right{
+    width: 60%;
+  position: relative;
+
+}
+.main2 .right .image-right {
+   height: 600px;
+}
+.main2 .right .image-right img {
+    height:100%;
+    width: 100%;
+}
+.main2 .right .infor{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+
+   
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    
+    
+   
+}
+.main2 .right .infor .menu-infor{
+    padding: 28px;
+
+}
+.main2 .right .infor .menu-infor .infor_adress{
+    text-align: center;
+}
+.main2 .right .infor .menu-infor .row1{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.main2 .right .infor .menu-infor .row1 select {
+    border-width: 0 0 1px 0;
+    border-color: black;
+    padding: 20px 50px;
+    background-color: transparent;
+    padding: 5px 0;
+    width: 130px;
+    color:black;
+    outline: none;
+  }
+  .main2 .right .infor .menu-infor .infor_adress span{
+        font-size: 14px;
+        color: orange;
+  }
+  .main2 .right .infor .menu-infor .infor_adress h2{
+    font-size: 40px;
+    font-weight: 200;
+  }
+  
+  .main2 .right .infor .menu-infor .row1 select option {
+    background-color: white;
+  }
+  .main2 .right .infor .menu-infor .row input{
+    border-width: 0 0 1px 0;
+  border-color:black;
+  padding: 10px 30px;
+  background-color: transparent;
+
+  width: 110px;
+  color: black;
+  outline: none;
+  }
+
+  
+   .main2 .right .infor .menu-infor .messenger textarea{
+    margin-top: 50px;
+    border-width: 0 0 1px 0;
+    border-color:black;
+    width: 100%;
+  
+    &:focus-visible {
+      outline: none;
+    }
+   }
+
+   .main2 .right .infor .menu-infor .pt-title-btn{
+    text-align: center;
+   
+    background-color: orange;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 30px;
+   }
+   .main2 .right .infor .menu-infor .pt-title-btn a{
+    text-decoration: none;
+   }
+   .main2 .right .infor .menu-infor .pt-title-btn span{
+    font-size: 14px;
+    color: white;
+
+   }
+   .background{
+    margin-top: 50px;
+   }
+.footer .row1{
+    gap: 45px;
+}
+
+@media screen and (max-width:768px) {
+    .footer .row1 button{
+        display: flex;
+        margin: auto;
+    }
+    
+}
+

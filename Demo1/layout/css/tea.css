@@ -1,0 +1,274 @@
+.slider{
+    height: 841px;
+}
+.header__bottom-title h1{
+    margin-top: 20%;
+   }
+@media screen and(max-width:768px) {
+    
+}
+.menu{
+	
+	margin: 20px 0;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center; /* Canh giữa theo chiều ngang */
+    padding: 10px;
+}
+
+.main-menu li {
+    margin: 0;
+    list-style: none;
+}
+
+.main-menu li a {
+	text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+ 
+    font-weight: bold;
+    padding: 10px;
+    display: block;
+    position: relative;
+
+}
+/*.main-menu li a::after{
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  transform: scale(0);
+  background-color: orange;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s cubic-bezier(0.075,0.82, 0.165, 1);
+}
+*/
+
+.image-slider {
+	margin-top: 50px;
+    display: flex;
+    align-items: center; /* Canh giữa theo chiều dọc */
+    justify-content: center; /* Canh giữa theo chiều ngang */
+   
+}
+
+/* Style the image container */
+.image {
+    position: relative;
+    width: 1138px;
+   
+}
+
+/* Style the image */
+.image img {
+    max-width: 100%; /* Hình ảnh chiếm toàn bộ chiều rộng của container */
+    height: auto; /* Đảm bảo tỷ lệ khung hình không bị thay đổi */
+   border-radius: 30px;
+}
+
+/* Style the title container */
+.title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    /* Khoảng cách từ bottom */
+    top: 50%; /* Đưa title lên trên 50% container */
+    transform: translateY(-50%); /* Dịch chuyển lên trên để đưa nó chính giữa */
+}
+@media screen  and (max-width:768px){
+    .navbar .title{
+        position: unset;
+        transform: none;
+    }
+    
+}
+
+/* Style the title */
+.ptt-title {
+	text-transform: uppercase;
+	font-size: 50px;
+    color: #fff; /* Màu chữ của tiêu đề */
+    background-color: #333; /* Màu nền của tiêu đề */
+    padding: 10px; /* Kích thước padding của tiêu đề */
+}
+.background .title{
+    top: 50%;
+}
+ .bander {
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+ }
+ .bander .image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+ }
+ .bander .image img{
+    width: 100%;
+    height: 100%;
+ }
+ .bander .image .conten{
+    position: absolute;
+   top: 50%;
+   margin: auto;
+   left: 30%;
+    
+ }
+ .bander .image .conten h5{
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+    font-weight: 200;
+ }
+
+@media screen and (max-width:1024px){
+    .bander{
+        width: 90%;
+        margin: auto;
+    }
+    .bander .image .conten h5{
+        font-size: 30px;
+    }
+    .main{
+        width: 80%;
+        margin: auto;
+    }
+    .main .conten{
+        
+        flex-direction: column;
+     
+    }
+    .main .conten .left{
+        width: 100%;
+    }
+    .main .conten .right{
+        justify-content: unset;
+    }
+    
+}
+
+.main{
+    margin-top: 50px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.main .conten{
+    width: 100%;
+    display: flex;
+}
+.main .conten .left{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+
+}
+.main .conten .left .product{
+    width: 90%;
+
+}
+.main .conten .left .conten-left .product{
+    width: 100%;
+}
+.main .conten .left .product .conten-left .pt-subtitle-wrap{
+    margin-top: 30px;
+}
+.main .conten .left .product .conten-left .pt-subtitle-wrap span{
+    font-size: 30px;
+
+}
+.main .conten .left .product .conten-left .conten1{
+    border-bottom: 1px solid grey;
+}
+.main .conten .left .product .conten-left h6{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 0px;
+
+}
+.main .conten .left .product .conten-left .conten1 .ingredient p{
+    color: grey;
+    font-family: cursive;
+}
+.main .conten .left .product .conten-left .price{
+    position: relative;
+}
+.main .conten .left .product .conten-left .price span{
+   position: absolute;
+font-size: 20px;
+top: 70%;
+}
+.main .conten .left .product .conten-left .name_price{
+    display: flex;
+    width: 100%;
+    gap: 35%;
+}
+
+.main .conten .right{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+
+    
+}
+.main .conten .right .product{
+    width: 90%;
+}
+.main .conten .right .product .conten-right{
+    width: 100%;
+
+}
+.main .conten .right .product .conten-right .pt-subtitle-wrap{
+    margin-top: 30px;
+}
+.main .conten .right .product .conten-right .pt-subtitle-wrap span{
+    font-size: 30px;
+
+}
+.main .conten .right .product .conten-right .conten1{
+    border-bottom: 1px solid grey;
+}
+.main .conten .right .product .conten-right h6{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 0px;
+
+}
+.main .conten .right .product .conten-right .name_price{
+    display: flex;
+    width: 100%;
+  gap: 35%;
+}
+.main .conten .right .product .conten-right .price{
+    position: relative;
+}
+.main .conten .right .product .conten-right .price span{
+    position: absolute;
+ font-size: 20px;
+ top: 70%;
+ }
+ .main .conten .right .product .conten-right .ingredient p{
+    color: gray;
+    font-family: cursive;
+ }
+.background{
+    margin-top: 50px;
+}
+
+@media screen and (max-width:768px) {
+    .footer .row1 button{
+        margin: auto;
+        display: flex;
+    }
+    
+}
+
+
